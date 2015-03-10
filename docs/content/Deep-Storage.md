@@ -52,5 +52,5 @@ If you are using the Hadoop indexer, set your output directory to be a location 
 
 [Apache Cassandra](http://www.datastax.com/what-we-offer/products-services/datastax-enterprise/apache-cassandra) can also be leveraged for deep storage.  This requires some additional druid configuration as well as setting up the necessary schema within a Cassandra keystore.
 
-Please note that this is a community contributed module and does not support Cassandra 2.x. For more information on using Cassandra as deep storage, see [Cassandra Deep Storage](Cassandra-Deep-Storage.html).
+Please note that this is a community contributed module and does not support Cassandra 2.x or hadoop-based batch indexing. For more information on using Cassandra as deep storage, see [Cassandra Deep Storage](Cassandra-Deep-Storage.html).
 
